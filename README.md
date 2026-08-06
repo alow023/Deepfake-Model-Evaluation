@@ -22,7 +22,7 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 
 ### Dataset Structure
 Organize your training data in the `data` folder as follows:
-
+```
 data/
 ├── train/
 │   ├── real/
@@ -34,3 +34,4 @@ data/
 └── validation/
     ├── real/
     └── fake/
+```
