@@ -75,5 +75,51 @@ data/
 
 ---
 ## Results
-#### DeepfakeDetector
+### DeepfakeDetector
 [Predictions](DeepfakeDetector/Prediction%20results/)
+
+#### 📊 Evaluation of images from Kaggle Dataset
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.9927      |
+| Precision  | 0.9983      |
+| Recall     | 0.9871      |
+| F1 Score   | 0.9927      |
+
+### Confusion Matrix
+|               | Predicted REAL | Predicted FAKE |
+|---------------|----------------|----------------|
+| **Actual REAL** | 9983           | 17             |
+| **Actual FAKE** | 129            | 9871           |
+
+#### 🖼️ Evaluation of self-sourced images
+
+## ⚠️ Model Evaluation Results (Low Accuracy Run)
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.2301      |
+| Precision  | 0           |
+| Recall     | 0           |
+| F1 Score   | 0           |
+
+### Confusion Matrix
+|              | Predicted REAL | Predicted FAKE |
+|--------------|----------------|----------------|
+| **Actual REAL** | 52             | 0              |
+| **Actual FAKE** | 174            | 0              |
+
+![Confusion Matrix](Prediction%20results/results_visualisations%20(Self%20sourced%20images)/confusion%20matrix)
+
+| Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
+|----------------|--------|-----------|-----------|---------|--------------------|
+| Flux.2         | 9      | 9         | 0         | 0       | 0                  |
+| GPT Image 2    | 24     | 24        | 0         | 0       | 0                  |
+| Grok           | 24     | 24        | 0         | 0       | 0                  |
+| Imagen         | 24     | 24        | 0         | 0       | 0                  |
+| Nano Banana 2  | 31     | 31        | 0         | 0       | 0                  |
+| Real           | 52     | 52        | 52        | 100     | 100                |
+| Recraft V4.1   | 22     | 22        | 0         | 0       | 0                  |
+| SDv3.5         | 24     | 24        | 0         | 0       | 0                  |
+| Seedream 4.5   | 16     | 16        | 0         | 0       | 0                  |
