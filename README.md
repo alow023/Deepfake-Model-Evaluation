@@ -3,9 +3,9 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 
 ### 📂 GitHub Repositories Used
 3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models. These repos are included as files in this repository as they contain changes not in the original repo for the purpose of testing the models.
-- [DeepfakeDetector](DeepfakeDetector/)  
-- [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
-- [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
+1. [DeepfakeDetector](DeepfakeDetector/)  
+2. [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
+3. [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
 
 
 ### 📊 Image-based Datasets
@@ -75,7 +75,7 @@ data/
 
 ---
 # Results
-## DeepfakeDetector
+1. DeepfakeDetector
 [Predictions](DeepfakeDetector/Prediction%20results/)
 
 ### 📊 Evaluation of images from Kaggle Dataset
