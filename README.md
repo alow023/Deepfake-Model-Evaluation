@@ -3,7 +3,7 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 
 ### 📂 GitHub Repositories Used
 3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models
-- [DeepfakeDetector](https://github.com/TRahulsingh/DeepfakeDetector)  
+- [DeepfakeDetector](DeepfakeDetector/)  
 - [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
 - [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
 
