@@ -1,16 +1,22 @@
 # Deepfake-Model-Evaluation
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
-## 📊 Image-based Datasets
+### 📂 GitHub Repositories Used
+- [DeepfakeDetector](https://github.com/TRahulsingh/DeepfakeDetector)  
+- [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
+- [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
 
-### 140k Real and Fake Faces
+
+### 📊 Image-based Datasets
+
+#### 140k Real and Fake Faces
 - **Description:** Large collection of real and AI-generated face images  
 - **Size:** ~140,000 images  
 - **Source:** StyleGAN-generated faces vs real faces  
 - **Download:** [Kaggle Dataset]([https://www.kaggle.com/](https://www.kaggle.com/xhlulu/140k-real-and-fake-faces))  
 - **Usage:** Perfect for image-based deepfake detection training
 
-## 📌 Dataset Usage Notes
+### 📌 Dataset Usage Notes
 - **Ethical Use:** These datasets are for research purposes only  
 - **Legal Compliance:** Ensure compliance with dataset licenses and terms of use  
 - **Privacy:** Respect privacy rights of individuals in the datasets  
@@ -18,9 +24,9 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 
 ---
 
-## 🏋️ Training
+### 🏋️ Training
 
-### Dataset Structure
+#### Dataset Structure
 Organize your training data in the `data` folder as follows:
 ```
 data/
