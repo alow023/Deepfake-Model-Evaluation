@@ -2,7 +2,7 @@
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
 ### 📂 GitHub Repositories Used
-3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models
+3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models. These repos are included as files in this repository as they contain changes not in the original repo for the purpose of testing the models.
 - [DeepfakeDetector](DeepfakeDetector/)  
 - [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
 - [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
