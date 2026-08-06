@@ -74,6 +74,6 @@ data/
 ```
 
 ---
-### Results
+## Results
 #### DeepfakeDetector
 [Predictions](DeepfakeDetector/Prediction%20results/)
