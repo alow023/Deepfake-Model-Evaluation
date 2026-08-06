@@ -74,11 +74,11 @@ data/
 ```
 
 ---
-## Results
-### DeepfakeDetector
+# Results
+## DeepfakeDetector
 [Predictions](DeepfakeDetector/Prediction%20results/)
 
-#### 📊 Evaluation of images from Kaggle Dataset
+### 📊 Evaluation of images from Kaggle Dataset
 
 | Metric     | Value       |
 |------------|-------------|
@@ -87,13 +87,13 @@ data/
 | Recall     | 0.9871      |
 | F1 Score   | 0.9927      |
 
-### Confusion Matrix
+#### Confusion Matrix
 |               | Predicted REAL | Predicted FAKE |
 |---------------|----------------|----------------|
 | **Actual REAL** | 9983           | 17             |
 | **Actual FAKE** | 129            | 9871           |
 
-#### 🖼️ Evaluation of self-sourced images
+### 🖼️ Evaluation of self-sourced images
 
 | Metric     | Value       |
 |------------|-------------|
@@ -102,7 +102,7 @@ data/
 | Recall     | 0           |
 | F1 Score   | 0           |
 
-### Confusion Matrix
+#### Confusion Matrix
 |              | Predicted REAL | Predicted FAKE |
 |--------------|----------------|----------------|
 | **Actual REAL** | 52             | 0              |
@@ -110,6 +110,7 @@ data/
 
 ![Confusion Matrix](DeepfakeDetector/Prediction%20results/results_visualisations%20(Self%20sourced%20images)/confusion_matrix.png)
 
+#### Model-specific predictions
 | Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
 |----------------|--------|-----------|-----------|---------|--------------------|
 | Flux.2         | 9      | 9         | 0         | 0       | 0                  |
