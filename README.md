@@ -40,8 +40,6 @@ This dataset was used to train models from the GitHub repositories
 
 **Subtotal (AI‑Generated): 174 images**
 
----
-
 ### 🏞️ Real Images
 | Source         | Number of Images | Notes                  |
 |----------------|------------------|------------------------|
@@ -49,8 +47,6 @@ This dataset was used to train models from the GitHub repositories
 | Canva          | 14               | Stock photography      |
 
 **Subtotal (Real): 52 images**
-
----
 
 ### 📌 Grand Total
 **226 images (174 AI‑generated + 52 real)**
