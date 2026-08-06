@@ -72,3 +72,8 @@ data/
     ├── real/
     └── fake/
 ```
+
+---
+### Results
+#### DeepfakeDetector
+[Predictions](DeepfakeDetector/Predictions/)
