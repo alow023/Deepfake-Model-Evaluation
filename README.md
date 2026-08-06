@@ -2,13 +2,14 @@
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
 ### 📂 GitHub Repositories Used
+3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models
 - [DeepfakeDetector](https://github.com/TRahulsingh/DeepfakeDetector)  
 - [AI-Generated-Video-Detector](https://github.com/Pranesh-2005/AI-Generated-Video-Detector)  
 - [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
 
 
 ### 📊 Image-based Datasets
-
+This dataset was used to train models from the GitHub repositories
 #### 140k Real and Fake Faces
 - **Description:** Large collection of real and AI-generated face images  
 - **Size:** ~140,000 images  
@@ -21,6 +22,24 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 - **Legal Compliance:** Ensure compliance with dataset licenses and terms of use  
 - **Privacy:** Respect privacy rights of individuals in the datasets  
 - **Citation:** Properly cite the original dataset papers when publishing research  
+
+### 📊 AI Images generated for testing detection tools
+The number of images generated were subjected to the free plan limits imposed for each model's website
+
+| Model             | Number of Images | Generation Method                               |
+|-------------------|------------------|-------------------------------------------------|
+| Recraft v4.1      | 22               | Diffusion + vector hybrid                       |
+| Seedream 4.5      | 16               | Diffusion with semantic guidance                |
+| SDv3.5            | 24               | Diffusion (Stable Diffusion checkpoint)         |
+| Nano Banana 2     | 31               | Web‑grounded multimodal diffusion               |
+| GPT‑Image‑2       | 24               | Diffusion (successor to DALL·E)                 |
+| Flux.2            | 9                | Diffusion + transformer hybrid                  |
+| Imagen            | 24               | Autoregressive + diffusion hybrid               |
+| Grok              | 24               | Transformer‑based generative model (multimodal) |  
+|----------------------------------------------------------------------------------------|
+| Real Images       | 52               | From Kaggle and Canva                           |
+| **Total**         | **226**          |                                                 |
+
 
 ---
 
