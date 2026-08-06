@@ -25,7 +25,7 @@ This dataset was used to train models from the GitHub repositories
 
 
 ## 📊 Images for testing detection tools
-
+The number of images generated for each model was subject to the limit imposed on the free generation plan
 ### 🤖 AI‑Generated Models
 | Model          | Number of Images | Generation Method                  |
 |----------------|------------------|------------------------------------|
@@ -48,7 +48,7 @@ This dataset was used to train models from the GitHub repositories
 
 **Subtotal (Real): 52 images**
 
-### 📌 Grand Total
+#### Total
 **226 images (174 AI‑generated + 52 real)**
 
 
