@@ -76,4 +76,4 @@ data/
 ---
 ### Results
 #### DeepfakeDetector
-[Predictions](DeepfakeDetector/Predictions_results/)
+[Predictions](DeepfakeDetector/Predictions%20results/)
