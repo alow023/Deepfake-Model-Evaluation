@@ -110,7 +110,7 @@ data/
 | **Actual REAL** | 52             | 0              |
 | **Actual FAKE** | 174            | 0              |
 
-![Confusion Matrix](DeepfakeDetector/Prediction%20results/results_visualisations%20(Self%20sourced%20images)/confusion%20matrix)
+![Confusion Matrix](DeepfakeDetector/Prediction results/results_visualisations (Self sourced images)/confusion_matrix.png)
 
 | Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
 |----------------|--------|-----------|-----------|---------|--------------------|
