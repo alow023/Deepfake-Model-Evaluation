@@ -95,8 +95,6 @@ data/
 
 #### 🖼️ Evaluation of self-sourced images
 
-## ⚠️ Model Evaluation Results (Low Accuracy Run)
-
 | Metric     | Value       |
 |------------|-------------|
 | Accuracy   | 0.2301      |
@@ -110,7 +108,7 @@ data/
 | **Actual REAL** | 52             | 0              |
 | **Actual FAKE** | 174            | 0              |
 
-![Confusion Matrix](DeepfakeDetector/Prediction results/results_visualisations (Self sourced images)/confusion_matrix.png)
+![Confusion Matrix](DeepfakeDetector/Prediction%20results/results_visualisations%20(Self%20sourced%20images)/confusion_matrix.png)
 
 | Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
 |----------------|--------|-----------|-----------|---------|--------------------|
