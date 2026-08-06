@@ -23,22 +23,38 @@ This dataset was used to train models from the GitHub repositories
 - **Privacy:** Respect privacy rights of individuals in the datasets  
 - **Citation:** Properly cite the original dataset papers when publishing research  
 
-### 📊 AI Images generated for testing detection tools
-The number of images generated were subjected to the free plan limits imposed for each model's website
 
-| Model             | Number of Images | Generation Method                               |
-|-------------------|------------------|-------------------------------------------------|
-| Recraft v4.1      | 22               | Diffusion + vector hybrid                       |
-| Seedream 4.5      | 16               | Diffusion with semantic guidance                |
-| SDv3.5            | 24               | Diffusion (Stable Diffusion checkpoint)         |
-| Nano Banana 2     | 31               | Web‑grounded multimodal diffusion               |
-| GPT‑Image‑2       | 24               | Diffusion (successor to DALL·E)                 |
-| Flux.2            | 9                | Diffusion + transformer hybrid                  |
-| Imagen            | 24               | Autoregressive + diffusion hybrid               |
-| Grok              | 24               | Transformer‑based generative model (multimodal) |  
-|----------------------------------------------------------------------------------------|
-| Real Images       | 52               | From Kaggle and Canva                           |
-| **Total**         | **226**          |                                                 |
+## 📊 Images for testing detection tools
+
+### 🤖 AI‑Generated Models
+| Model          | Number of Images | Generation Method                  |
+|----------------|------------------|------------------------------------|
+| Recraft v4.1   | 22               | Diffusion + vector hybrid          |
+| Seedream 4.5   | 16               | Diffusion with semantic guidance   |
+| SDv3.5         | 24               | Diffusion (Stable Diffusion)       |
+| Nano Banana 2  | 31               | Web‑grounded multimodal diffusion  |
+| GPT‑Image‑2    | 24               | Diffusion (successor to DALL·E)    |
+| Flux.2         | 9                | Diffusion + transformer hybrid     |
+| Imagen         | 24               | Autoregressive + diffusion hybrid  |
+| Grok           | 24               | Transformer‑based multimodal model |
+
+**Subtotal (AI‑Generated): 174 images**
+
+---
+
+### 🏞️ Real Images
+| Source         | Number of Images | Notes                  |
+|----------------|------------------|------------------------|
+| Kaggle         | 38               | Real face dataset      |
+| Canva          | 14               | Stock photography      |
+
+**Subtotal (Real): 52 images**
+
+---
+
+### 📌 Grand Total
+**226 images (174 AI‑generated + 52 real)**
+
 
 
 ---
