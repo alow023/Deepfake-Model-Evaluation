@@ -5,7 +5,7 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models. These repos are included as files in this repository as they contain changes not in the original repo for the purpose of testing the models.
 1. [DeepfakeDetector](DeepfakeDetector/)  
 2. [AI-Generated-Video-Detector](AI-Generated-Video-Detector/)  
-3. [facetorch](https://github.com/tomas-gajarsky/facetorch/blob/main/README.md)
+3. [facetorch](facetorch/)
 
 The GitHub repositories referenced here build upon the original projects, incorporating supplementary evaluation code and documented prediction results.
 
