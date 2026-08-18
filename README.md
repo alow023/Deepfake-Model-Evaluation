@@ -1,4 +1,4 @@
-<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/5f22516a-fff4-4c01-a3d0-c2592a3264b7" /># Deepfake-Model-Evaluation
+# Deepfake-Model-Evaluation
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
 ### 📂 GitHub Repositories Used
@@ -146,7 +146,7 @@ data/
 | **Actual REAL** | 8963           | 1037           |
 | **Actual FAKE** | 9252           | 748            |
 
-[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations/confusion_matrix.png)
+[Confusion Matrix](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/results_visualisations/confusion_matrix.png)
 
 ### 🖼️ Evaluation of self-sourced images
 
@@ -163,7 +163,7 @@ data/
 | **Actual REAL** | 44             | 8              |
 | **Actual FAKE** | 143            | 31             |
 
-[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations%20(Self-sourced)/confusion_matrix.png)
+[Confusion Matrix](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/results_visualisations%20(Self%20sourced)/confusion_matrix.png)
 
 #### Model Accuracy Comparison
 | Generator      | Images | Correct | Detection Rate (%) |
