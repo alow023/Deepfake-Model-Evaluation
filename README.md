@@ -77,9 +77,9 @@ data/
 ---
 # Results
 1. DeepfakeDetector
-[Predictions](https://github.com/alow023/DeepfakeDetector/blob/main/prediction_results.xlsx)
 
 ### 📊 Evaluation of images from Kaggle Dataset
+[Predictions](https://github.com/alow023/DeepfakeDetector/blob/main/prediction_results.xlsx)
 
 | Metric     | Value       |
 |------------|-------------|
@@ -97,6 +97,7 @@ data/
 [Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations/confusion_matrix.png)
 
 ### 🖼️ Evaluation of self-sourced images
+[Predictions](https://github.com/alow023/DeepfakeDetector/blob/main/prediction_results%20(Self%20sourced).xlsx)
 
 | Metric     | Value       |
 |------------|-------------|
@@ -129,9 +130,9 @@ data/
 ---
 
 2. AI-Generated-Video-Detector
-[Predictions](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/prediction_results.xlsx)
 
 ### 📊 Evaluation of images from Kaggle Dataset
+[Predictions](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/prediction_results.xlsx)
 
 | Metric     | Value       |
 |------------|-------------|
@@ -149,6 +150,7 @@ data/
 [Confusion Matrix](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/results_visualisations/confusion_matrix.png)
 
 ### 🖼️ Evaluation of self-sourced images
+[Predictions](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/prediction_results%20(Self%20sourced).xlsx)
 
 | Metric     | Value       |
 |------------|-------------|
@@ -165,7 +167,7 @@ data/
 
 [Confusion Matrix](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/results_visualisations%20(Self%20sourced)/confusion_matrix.png)
 
-#### Model Accuracy Comparison
+#### Model-specific predictions
 | Generator      | Images | Correct | Detection Rate (%) |
 |----------------|--------|---------|--------------------|
 | Flux.2         | 9      | 0       | 0                  |
@@ -177,4 +179,59 @@ data/
 | Recraft V4.1   | 22     | 7       | 31.82              |
 | SDv3.5         | 24     | 3       | 12.5               |
 | Seedream 4.5   | 16     | 3       | 18.75              |
+
+---
+
+3. facetorch
+
+### 📊 Evaluation of images from Kaggle Dataset
+[Predictions](https://github.com/alow023/facetorch/blob/main/facetorch_results.xlsx)
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.4941      |
+| Precision  | 0.2568      |
+| Recall     | 0.0019      |
+| F1 Score   | 0.0038      |
+
+#### Confusion Matrix
+|               | Predicted REAL | Predicted FAKE |
+|---------------|----------------|----------------|
+| **Actual REAL** | 9658           | 55             |
+| **Actual FAKE** | 9852           | 19             |
+
+[Confusion Matrix](https://github.com/alow023/facetorch/blob/main/facetorch_visualisations/confusion_matrix.png)
+
+### 🖼️ Evaluation of self-sourced images
+[Predictions](https://github.com/alow023/facetorch/blob/main/facetorch_results%20(Self%20sourced).xlsx)
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.2973      |
+| Precision  | 0.7333      |
+| Recall     | 0.1528      |
+| F1 Score   | 0.2529      |
+
+#### Confusion Matrix
+|              | Predicted REAL | Predicted FAKE |
+|--------------|----------------|----------------|
+| **Actual REAL** | 66             | 16             |
+| **Actual FAKE** | 244            | 44             |
+
+[Confusion Matrix](https://github.com/alow023/facetorch/blob/main/facetorch_visualisations%20(Self%20sourced)/confusion_matrix.png)
+
+#### Model-specific predictions
+| Generator      | Images | Correct | Detection Rate (%) |
+|----------------|--------|---------|--------------------|
+| Flux.2         | 18     | 0       | 0                  |
+| GPT Images     | 48     | 10      | 20.83              |
+| Grok           | 48     | 12      | 25                 |
+| Imagen         | 48     | 0       | 0                  |
+| Nano Banas     | 62     | 8       | 12.9               |
+| Real           | 104    | 66      | 63.46              |
+| Recraft V4     | 44     | 0       | 0                  |
+| SDv3.5         | 48     | 6       | 12.5               |
+| Seedream       | 32     | 8       | 25                 |
+
+
 
