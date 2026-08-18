@@ -1,4 +1,4 @@
-# Deepfake-Model-Evaluation
+<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/5f22516a-fff4-4c01-a3d0-c2592a3264b7" /># Deepfake-Model-Evaluation
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
 ### 📂 GitHub Repositories Used
@@ -114,14 +114,67 @@ data/
 [Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations%20(Self-sourced)/confusion_matrix.png)
 
 #### Model-specific predictions
-| Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
-|----------------|--------|-----------|-----------|---------|--------------------|
-| Flux.2         | 9      | 9         | 0         | 0       | 0                  |
-| GPT Image 2    | 24     | 24        | 0         | 0       | 0                  |
-| Grok           | 24     | 24        | 0         | 0       | 0                  |
-| Imagen         | 24     | 24        | 0         | 0       | 0                  |
-| Nano Banana 2  | 31     | 31        | 0         | 0       | 0                  |
-| Real           | 52     | 52        | 52        | 100     | 100                |
-| Recraft V4.1   | 22     | 22        | 0         | 0       | 0                  |
-| SDv3.5         | 24     | 24        | 0         | 0       | 0                  |
-| Seedream 4.5   | 16     | 16        | 0         | 0       | 0                  |
+| Generator      | Images | Correct   | Detection Rate (%) |
+|----------------|--------|-----------|--------------------|
+| Flux.2         | 9      | 0         | 0                  |
+| GPT Image 2    | 24     | 0         | 0                  |
+| Grok           | 24     | 0         | 0                  |
+| Imagen         | 24     | 0         | 0                  |
+| Nano Banana 2  | 31     | 0         | 0                  |
+| Real           | 52     | 52        | 100                |
+| Recraft V4.1   | 22     | 0         | 0                  |
+| SDv3.5         | 24     | 0         | 0                  |
+| Seedream 4.5   | 16     | 0         | 0                  |
+
+---
+
+2. AI-Generated-Video-Detector
+[Predictions](https://github.com/alow023/AI-Generated-Video-Detector/blob/main/prediction_results.xlsx)
+
+### 📊 Evaluation of images from Kaggle Dataset
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.4856      |
+| Precision  | 0.4190      |
+| Recall     | 0.0748      |
+| F1 Score   | 0.1269      |
+
+#### Confusion Matrix
+|               | Predicted REAL | Predicted FAKE |
+|---------------|----------------|----------------|
+| **Actual REAL** | 8963           | 1037           |
+| **Actual FAKE** | 9252           | 748            |
+
+[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations/confusion_matrix.png)
+
+### 🖼️ Evaluation of self-sourced images
+
+| Metric     | Value       |
+|------------|-------------|
+| Accuracy   | 0.3319      |
+| Precision  | 0.7949      |
+| Recall     | 0.1782      |
+| F1 Score   | 0.2911      |
+
+#### Confusion Matrix
+|              | Predicted REAL | Predicted FAKE |
+|--------------|----------------|----------------|
+| **Actual REAL** | 44             | 8              |
+| **Actual FAKE** | 143            | 31             |
+
+[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations%20(Self-sourced)/confusion_matrix.png)
+
+#### Model Accuracy Comparison
+| Generator      | Images | Correct | Detection Rate (%) |
+|----------------|--------|---------|--------------------|
+| Flux.2         | 9      | 0       | 0                  |
+| GPT Image 2    | 24     | 6       | 25                 |
+| Grok           | 24     | 6       | 25                 |
+| Imagen         | 24     | 4       | 16.67              |
+| Nano Banana 2  | 31     | 2       | 6.45               |
+| Real           | 52     | 44      | 84.62              |
+| Recraft V4.1   | 22     | 7       | 31.82              |
+| SDv3.5         | 24     | 3       | 12.5               |
+| Seedream 4.5   | 16     | 3       | 18.75              |
+
