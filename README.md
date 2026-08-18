@@ -77,7 +77,7 @@ data/
 ---
 # Results
 1. DeepfakeDetector
-[Predictions](DeepfakeDetector/Prediction%20results/)
+[Predictions](https://github.com/alow023/DeepfakeDetector/blob/main/prediction_results.xlsx)
 
 ### 📊 Evaluation of images from Kaggle Dataset
 
@@ -94,6 +94,8 @@ data/
 | **Actual REAL** | 9983           | 17             |
 | **Actual FAKE** | 129            | 9871           |
 
+[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations/confusion_matrix.png)
+
 ### 🖼️ Evaluation of self-sourced images
 
 | Metric     | Value       |
@@ -109,7 +111,7 @@ data/
 | **Actual REAL** | 52             | 0              |
 | **Actual FAKE** | 174            | 0              |
 
-![Confusion Matrix](DeepfakeDetector/Prediction%20results/results_visualisations%20(Self%20sourced%20images)/confusion_matrix.png)
+[Confusion Matrix](https://github.com/alow023/DeepfakeDetector/blob/main/results_visualisations%20(Self-sourced)/confusion_matrix.png)
 
 #### Model-specific predictions
 | Generator      | Images | Predicted | Predicted | Correct | Detection Rate (%) |
