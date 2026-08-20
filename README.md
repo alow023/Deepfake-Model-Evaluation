@@ -1,6 +1,13 @@
 # Deepfake-Model-Evaluation
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
+<u>Method</u>
+Each detection tool will tested in the following way:
+- Predict against 20k real and AI-generated face images from Kaggle, with the face being the focus of the image
+- Predict against 52 real images from Kaggle and Canva, with a mix images with faces in the image and some faces not in the image. Few photos have faces being the focus of the image.
+- Predict against 174 AI-generated images with various models with different generation methods with a mix images with faces in the image and some faces not in the image. Few photos have faces being the focus of the image.
+
+
 ### 📂 GitHub Repositories Used
 3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models. These repos are included as files in this repository as they contain changes not in the original repo for the purpose of testing the models.
 1. [DeepfakeDetector](https://github.com/alow023/DeepfakeDetector)  
@@ -9,8 +16,7 @@ As deepfake technology rapidly evolves, there is a critical need to continuously
 
 The GitHub repositories referenced here build upon the original projects, incorporating supplementary evaluation code and documented prediction results.
 
-### 📊 Image-based Datasets
-This dataset was used to train models from the GitHub repositories
+### 📊 Kaggle dataset with images having the face as the main focus
 #### 140k Real and Fake Faces
 - **Description:** Large collection of real and AI-generated face images  
 - **Size:** ~140,000 images  
@@ -25,9 +31,9 @@ This dataset was used to train models from the GitHub repositories
 - **Citation:** Properly cite the original dataset papers when publishing research  
 
 
-## 📊 Images for testing detection tools
+## 📊 Images that mostly do not have faces as the main focus
 The number of images generated for each model was subject to the limit imposed on the free generation plan
-### 🤖 AI‑Generated Models
+### 🤖 AI‑Generated Images from various models 
 | Model          | Number of Images | Generation Method                  |
 |----------------|------------------|------------------------------------|
 | Recraft v4.1   | 22               | Diffusion + vector hybrid          |
