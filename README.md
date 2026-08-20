@@ -9,12 +9,11 @@ Each detection tool will tested in the following way:
 
 
 ### 📂 GitHub Repositories Used
-3 random MIT Licensed deepfake detection GitHub Projects were selected to test against images generated from a variety of models. These repos are included as files in this repository as they contain changes not in the original repo for the purpose of testing the models.
+3 MIT Licensed deepfake detection GitHub Projects were randomly selected for testing. Each repo has additional contributions added to the original repo for the purpose of testing the models. Supplementary evaluation code and documented prediction results are incorporated.
 1. [DeepfakeDetector](https://github.com/alow023/DeepfakeDetector)  
 2. [AI-Generated-Video-Detector]([AI-Generated-Video-Detector/](https://github.com/alow023/AI-Generated-Video-Detector))  
 3. [facetorch](https://github.com/alow023/facetorch)
 
-The GitHub repositories referenced here build upon the original projects, incorporating supplementary evaluation code and documented prediction results.
 
 ### 📊 Kaggle dataset with images having the face as the main focus
 #### 140k Real and Fake Faces
@@ -63,6 +62,7 @@ The number of images generated for each model was subject to the limit imposed o
 ---
 
 ### 🏋️ Training
+GPU is highly recommended for training of models
 
 #### Dataset Structure
 Organize your training data in the `data` folder as follows:
