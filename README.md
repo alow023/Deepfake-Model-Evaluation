@@ -11,7 +11,7 @@ Each detection tool will tested in the following way:
 ### 📂 GitHub Repositories Used
 3 MIT Licensed deepfake detection GitHub Projects were randomly selected for testing. Each repo has additional contributions added to the original repo for the purpose of testing the models. Supplementary evaluation code and documented prediction results are incorporated.
 1. [DeepfakeDetector](https://github.com/alow023/DeepfakeDetector)  
-2. [AI-Generated-Video-Detector]([AI-Generated-Video-Detector/](https://github.com/alow023/AI-Generated-Video-Detector))  
+2. [AI-Generated-Video-Detector](https://github.com/alow023/AI-Generated-Video-Detector)
 3. [facetorch](https://github.com/alow023/facetorch)
 
 
