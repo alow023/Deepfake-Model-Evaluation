@@ -31,7 +31,7 @@ Each detection tool will tested in the following way:
 
 
 ## 📊 Images that mostly do not have faces as the main focus
-The number of images generated for each model was subject to the limit imposed on the free generation plan
+The number of images generated for each model was subject to the limit imposed on the free generation plan. Various scenarios were used when prompting the models to generate images.
 ### 🤖 AI‑Generated Images from various models 
 | Model          | Number of Images | Generation Method                  |
 |----------------|------------------|------------------------------------|
