@@ -1,7 +1,7 @@
 # Deepfake-Model-Evaluation
 As deepfake technology rapidly evolves, there is a critical need to continuously evaluate detection solutions against real-world synthetic media. The aim of this project is to discover state-of-the-art Deepfake Detection tools to identify solutions for real-world use cases.
 
-<u>Method</u>
+==Method==
 Each detection tool will tested in the following way:
 - Predict against 20k real and AI-generated face images from Kaggle, with the face being the focus of the image
 - Predict against 52 real images from Kaggle and Canva, with a mix images with faces in the image and some faces not in the image. Few photos have faces being the focus of the image.
