@@ -239,5 +239,7 @@ data/
 | SDv3.5         | 48     | 6       | 12.5               |
 | Seedream       | 32     | 8       | 25                 |
 
+---
+## Analysis of predictions
 
-
+In-depth analysis of prediction results from individual models can be found [here](https://github.com/alow023/Deepfake-Model-Evaluation/blob/main/Analysis%20of%20model%20predictions.docx)
