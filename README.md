@@ -243,3 +243,6 @@ data/
 ## Analysis of predictions
 
 In-depth analysis of prediction results from individual models can be found [here](https://github.com/alow023/Deepfake-Model-Evaluation/blob/main/Analysis%20of%20model%20predictions.docx)
+
+## Conclusion
+These models fail to effectively classify images where human faces are not the main focus. In an evolving landscape of synthetic media, deepfake detection model training must go beyond authentic facial feature recognition to include inanimate objects, backgrounds and events. Future benchmarking exercises can test more models on a greater volume of data, with a mix of images containing human faces as the main focus and those that do not.
